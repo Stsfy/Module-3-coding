@@ -1,0 +1,73 @@
+body p,
+h3 {
+  color: rgb(255, 255, 255);
+}
+body {
+  background-color: #5c2680;
+}
+#header-nav {
+  background-color: #6a0aab;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid black;
+}
+.navbar-brand {
+  font-size: 3em;
+}
+
+#main-content #menu {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+#food-sushi > div {
+  background-color: #983fd5;
+  border: 2px solid black;
+  margin: 0 auto 15px;
+  width: 100%;
+}
+
+#main-content #text-name {
+  font-size: 2em;
+}
+
+p#text {
+  margin-inline: 50px;
+}
+#main-content #text {
+  font-size: 1.2em;
+}
+#header-nav button.navbar-toggle,
+#header-nav .icon-bar {
+  border: 1px solid #ffffff;
+}
+#header-nav button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color: #000000;
+  opacity: 0.5;
+}
+#nav-list a {
+  font-size: 1.5em;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  #food-sushi > div {
+    padding: 15px;
+  }
+  /* End Home Page */
+}
+@media (max-width: 767px) {
+  .row {
+    padding-inline: 5%;
+  }
+}
